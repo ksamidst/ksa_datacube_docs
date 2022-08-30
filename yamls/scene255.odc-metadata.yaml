@@ -1,0 +1,60 @@
+---
+# Dataset
+$schema: https://schemas.opendatacube.org/dataset
+id: 20ae2466-eab5-496b-8ff8-8502f0b22ef1
+
+label: landsat_sr_kenya_2020-03-14
+product:
+  name: landsat_sr_kenya
+
+crs: epsg:32637
+geometry:
+  type: Polygon
+  coordinates: [[[139785.0, 596115.0], [139785.0, 363285.0], [367815.0, 363285.0],
+      [367815.0, 596115.0], [139785.0, 596115.0]]]
+grids:
+  default:
+    shape: [7761, 7601]
+    transform: [30.0, 0.0, 139785.0, 0.0, -30.0, 596115.0, 0.0, 0.0, 1.0]
+
+properties:
+  datetime: 2020-03-14 07:47:38.231017Z
+  eo:cloud_cover: 26.67
+  eo:instrument: OLI_TIRS
+  landsat:cloud_cover_land: '26.67'
+  landsat:collection_category: T1
+  landsat:collection_number: 2
+  landsat:scene_id: LC81690572020074LGN00
+  landsat:wrs_path: 169
+  landsat:wrs_row: 57
+  landsat:wrs_type: '2'
+  odc:file_format: GeoTIFF
+  odc:processing_datetime: 2022-03-07 15:17:20.069150Z
+  odc:product_family: landsat_sr_kenya
+
+measurements:
+  qa_pixel:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_QA_PIXEL.TIF
+  qa_radsat:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_QA_RADSAT.TIF
+  sr_b1:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_SR_B1.TIF
+  sr_b2:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_SR_B2.TIF
+  sr_b3:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_SR_B3.TIF
+  sr_b4:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_SR_B4.TIF
+  sr_b5:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_SR_B5.TIF
+  sr_b6:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_SR_B6.TIF
+  sr_b7:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_SR_B7.TIF
+  sr_qa_aerosol:
+    path: file:///mnt/serverdata/Server_Backup/Kenya/extracted/LC08_L2SP_169057_20200314_20200822_02_T1/LC08_L2SP_169057_20200314_20200822_02_T1_SR_QA_AEROSOL.TIF
+
+accessories: {}
+
+lineage: {}
+...
